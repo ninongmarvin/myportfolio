@@ -1,0 +1,158 @@
+.project-cards{
+  box-shadow: 0 8px 8px 0 #262626;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.project-contents{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-contents img{
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+
+.project-contents img:hover ~ .website-title{
+  box-shadow: 0 7px 7px 0 #99ffff inset;
+  transition: 0.4s;
+}
+
+.website-title{
+  background-color: #262626;
+  padding: 1.50rem .50rem;
+  border: solid #262626 1px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: 0.4s;
+}
+
+.website-title:hover{
+  background-color: #99ffff;
+  transition: 0.4s;
+}
+
+.website-title:hover h3{
+  color: #262626;
+}
+
+.website-title:hover .links a{
+  color: #262626;
+}
+
+.links{
+  margin-top: .50rem;
+}
+
+.links a{
+  margin: 0 .50rem;
+  color: #99ffff;
+}
+
+.project-cards h3{
+  color: #99ffff;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 1.50px;
+}
+
+.desc h1{
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 1rem;
+  margin-bottom: .75rem;
+}
+
+.desc p{
+  padding: 1rem;
+  font-size: 1.10rem;
+  line-height: 1.80rem;
+}
+
+#hide{
+  display: none;
+  transition: 0.4s;
+}
+
+#show{
+  display: contents;
+  transition: 0.4s;
+}
+
+#project-clicked{
+  grid-column: span 3 / span 3;
+  transition: 0.4s;
+}
+
+#not-clicked{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}
+
+#clicked-image{
+  height: 550px;
+  transition: 0.4s;
+}
+
+#not-clicked-image{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}
+
+#sample-images{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#clicked1{
+  grid-column: span 2 / span 2;
+  height: 550px;
+  transition: 0.4s;
+}
+
+#not1{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}
+
+#clicked2{
+  grid-column: span 2 / span 2;
+  height: 550px;
+  transition: 0.4s;
+}
+
+#not2{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}
+
+#clicked3{
+  grid-column: span 2 / span 2;
+  height: 550px;
+  transition: 0.4s;
+}
+
+#not3{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}
+
+#clicked4{
+  grid-column: span 2 / span 2;
+  height: 550px;
+  transition: 0.4s;
+}
+
+#not4{
+  grid-column: span 1 / span 1;
+  transition: 0.4s;
+}

@@ -1,0 +1,343 @@
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+  body .container p{
+    color: #99ffff;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: .75rem;
+  }
+
+  body .container h1{
+    color: #99ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+  body .projects-container{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  body .about-me{
+    margin: 5rem 2;
+  }
+
+  body .about-container{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0 1rem;
+  }
+
+  body .about-container img{
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  body #sample-images{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #262626;
+  }
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 900px) {
+  .right-side a{
+    display: none;
+  }
+
+  .left-side{
+    display: none;
+  }
+
+  body .hidden-links{
+    display: contents;
+  }
+
+  body .hidden-links a{
+    text-decoration: none;
+    color: #99ffff;
+    margin: 0 1rem;
+    font-size: 1.10rem;
+  }
+
+  body .container p{
+    color: #99ffff;
+    font-size: 1.25rem;
+    font-weight: 200;
+    margin-bottom: .75rem;
+  }
+
+  body .container h1{
+    color: #99ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  body .projects-container{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  body .about-me{
+    margin: 5rem 2;
+  }
+
+  body .about-container{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0 1rem;
+  }
+
+  body .about-container img{
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  body #sample-images{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #262626;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .container p{
+    color: #99ffff;
+    font-size: 1.50rem;
+    font-weight: 200;
+    margin-bottom: .75rem;
+  }
+
+  body .container h1{
+    color: #99ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 2.25rem;
+  }
+
+  body .projects-container{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .about-me{
+    margin: 5rem 2;
+  }
+
+  body .about-container{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0 1rem;
+  }
+
+  body .about-container img{
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  body #sample-images{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #262626;
+  }
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a:active{
+  border-bottom: 3px solid #99ffff;
+}
+
+.banner{
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.container{
+  width: 90%;
+  padding: 2rem 1rem;
+  background-color: rgba(1, 0, 0, 0.6);
+  margin: auto;
+}
+
+.container p{
+  color: #99ffff;
+  font-size: 1.80rem;
+  font-weight: 200;
+  margin-bottom: .75rem;
+}
+
+.container h1{
+  color: #99ffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 2.75rem;
+}
+
+.projects{
+  margin: 10rem 2rem;
+}
+
+.title{
+  margin-bottom: 2rem;
+}
+
+.title h3{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.40rem;
+}
+
+.projects-container{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: auto;
+}
+
+.about-me{
+  margin: 10rem 2rem;
+}
+
+.about-container{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 6rem;
+}
+
+.about-container img{
+  width: 75%;
+  height: 575px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.about{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 16px 16px 0 #99ffff;
+}
+
+.about p{
+  line-height: 2rem;
+  font-size: 1.10rem;
+}
+
+.contact-me{
+  margin: 10rem 2rem;
+}
+
+.form-container{
+  width: 75%;
+  margin: auto;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label{
+  font-size: 1.25rem;
+  margin-bottom: 0.70rem;
+  letter-spacing: 3px;
+}
+
+.contact-form input{
+  margin-bottom: 1.50rem;
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.contact-form input:focus{
+  outline: none;
+}
+
+.contact-form textarea:focus{
+  outline: none;
+}
+
+.contact-form textarea{
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form button{
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  background-color: #262626;
+  color: #99ffff;
+  transition: 0.4s;
+}
+
+.contact-form button:hover{
+  background-color: #99ffff;
+  color: #262626;
+  transition: 0.4s;
+}

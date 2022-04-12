@@ -1,0 +1,54 @@
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+  .right-side a{
+    display: none;
+  }
+
+  .left-side{
+    display: none;
+  }
+
+  body .hidden-links{
+    display: contents;
+  }
+
+  body .hidden-links a{
+    text-decoration: none;
+    color: #99ffff;
+    margin: 0 1rem;
+    font-size: 1.10rem;
+  }
+
+}
+
+.navbar{
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: #262626;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side{
+  font-size: 1.40rem;
+  color: #99ffff;
+}
+
+.left-side h4{
+  font-weight: 600;
+}
+
+.right-side a{
+  text-decoration: none;
+  color: #99ffff;
+  margin: 0 1rem;
+  font-size: 1.10rem;
+}
+
+.hidden-links{
+  display: none;
+}
