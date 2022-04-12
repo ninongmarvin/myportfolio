@@ -12,6 +12,35 @@
     font-weight: 400;
     letter-spacing: 1.50px;
   }
+
+  #clicked-image{
+    height: 150px;
+    transition: 0.4s;
+  }
+
+  #clicked1{
+    grid-column: span 2 / span 2;
+    height: 150px;
+    transition: 0.4s;
+  }
+
+  #clicked2{
+    grid-column: span 2 / span 2;
+    height: 150px;
+    transition: 0.4s;
+  }
+
+  #clicked3{
+    grid-column: span 2 / span 2;
+    height: 150px;
+    transition: 0.4s;
+  }
+
+  #clicked4{
+    grid-column: span 2 / span 2;
+    height: 150px;
+    transition: 0.4s;
+  }
 }
 
 .project-cards{
