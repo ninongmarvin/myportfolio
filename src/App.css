@@ -254,7 +254,7 @@ a:active{
 
 .about-container img{
   width: 75%;
-  height: 575px;
+  height: 540px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -271,7 +271,7 @@ a:active{
 
 .about p{
   line-height: 2rem;
-  font-size: 1.10rem;
+  font-size: .80rem;
 }
 
 .contact-me{
@@ -289,7 +289,7 @@ a:active{
 }
 
 .contact-form label{
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 0.70rem;
   letter-spacing: 3px;
 }
@@ -301,7 +301,7 @@ a:active{
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-size: 1.25rem;
+  font-size: 0.80rem;
 }
 
 .contact-form input:focus{
@@ -318,7 +318,7 @@ a:active{
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-size: 1.25rem;
+  font-size: 0.80rem;
   margin-bottom: 2rem;
 }
 
@@ -328,7 +328,7 @@ a:active{
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
   background-color: #262626;

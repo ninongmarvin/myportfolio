@@ -40,13 +40,14 @@
 
 .left-side h4{
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .right-side a{
   text-decoration: none;
   color: #99ffff;
   margin: 0 1rem;
-  font-size: 1rem;
+  font-size: .90rem;
 }
 
 .hidden-links{
