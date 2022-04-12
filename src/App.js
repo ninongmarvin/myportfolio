@@ -49,7 +49,7 @@ function App() {
         <div className="about-container">
           <img src={me} alt="about me"/>
           <div className="about">
-            <p>Hello there! My name is Marvin S. Gello-ano. I'm a Software Developer focusing on Back-end development. Though I spend most of my time learning various Back-end programming, I also dabble in the realm of Front-end development.<br/><br/>
+            <p>Hello theresss! My name is Marvin S. Gello-ano. I'm a Software Developer focusing on Back-end development. Though I spend most of my time learning various Back-end programming, I also dabble in the realm of Front-end development.<br/><br/>
 
             I started my journey on software development when I was in third year college. Since then, I learned and used PHP and Python to create websites. I also used Frameworks such as Laravel, Codeigniter, and Django. Currently, I'm using Laravel for my projects. On the Front-end side, I first started learning basic HTML and CSS, then I moved on to CSS Libraries such as Bootstrap and Tailwind css.<br/><br/>
 
