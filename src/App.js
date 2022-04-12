@@ -53,7 +53,7 @@ function App() {
 
             I started my journey on software development when I was in third year college. Since then, I learned and used PHP and Python to create websites. I also used Frameworks such as Laravel, Codeigniter, and Django. Currently, I'm using Laravel for my projects. On the Front-end side, I first started learning basic HTML and CSS, then I moved on to CSS Libraries such as Bootstrap and Tailwind css.<br/><br/>
 
-            As of 2022, I'm starting to study Javascript and it's Libraries such as Angular and React. Fun Fact, I created this porfolio website using React!</p>
+            As of 2022, I'm starting to study Javascript and it's Libraries such as Angular and React. Fun Fact, this portfolio website is the first React.js project I've created!</p>
           </div>
         </div>
       </div>
