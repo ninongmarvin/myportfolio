@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 640px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   body .container p{
     color: #99ffff;
     font-size: .50rem;
@@ -59,7 +59,7 @@
   }
 
   body .contact-form label{
-    font-size: .50rem;
+    font-size: .70rem;
     margin-bottom: 0.70rem;
     letter-spacing: 3px;
   }
@@ -71,7 +71,7 @@
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    font-size: 0.40rem;
+    font-size: 0.60rem;
   }
 
   body .contact-form textarea{
@@ -80,7 +80,7 @@
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    font-size: 0.50rem;
+    font-size: 0.60rem;
     margin-bottom: 2rem;
   }
 
@@ -90,7 +90,7 @@
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    font-size: .40rem;
+    font-size: .60rem;
     margin-bottom: 2rem;
     cursor: pointer;
     background-color: #262626;

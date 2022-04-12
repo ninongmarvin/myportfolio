@@ -1,7 +1,7 @@
-@media only screen and (min-width: 300px) and (max-width: 640px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   body .project-contents img{
     width: 100%;
-    height: 175px;
+    height: 150px;
     cursor: pointer;
     border: 1px solid;
   }
