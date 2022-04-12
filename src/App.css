@@ -168,6 +168,56 @@
     padding-bottom: 1rem;
     border-bottom: 5px solid #262626;
   }
+
+  body .form-container{
+    width: 100%;
+    margin: auto;
+  }
+
+  body .contact-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  body .contact-form label{
+    font-size: .90rem;
+    margin-bottom: 0.70rem;
+    letter-spacing: 3px;
+  }
+
+  body .contact-form input{
+    margin-bottom: 1.50rem;
+    padding: .70rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 0.80rem;
+  }
+
+  body .contact-form textarea{
+    padding: 1rem .70rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 0.80rem;
+    margin-bottom: 2rem;
+  }
+
+  body .contact-form button{
+    padding: .60rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: .80rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background-color: #262626;
+    color: #99ffff;
+    transition: 0.4s;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
