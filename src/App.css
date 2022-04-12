@@ -117,12 +117,12 @@
     text-decoration: none;
     color: #99ffff;
     margin: 0 1rem;
-    font-size: 1.10rem;
+    font-size: .90rem;
   }
 
   body .container p{
     color: #99ffff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 200;
     margin-bottom: .75rem;
   }
@@ -132,7 +132,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.30rem;
   }
 
   body .projects-container{
