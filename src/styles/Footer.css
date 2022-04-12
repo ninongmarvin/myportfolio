@@ -1,3 +1,30 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .footer{
+    width: 100%;
+    padding: 2rem .90rem;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  body .social{
+    margin-bottom: 1rem;
+  }
+
+  body .social a{
+    color: #99ffff;
+    margin: 0 1rem;
+  }
+
+  body .footer h3{
+    color: #99ffff;
+    font-size: .90rem;
+    font-weight: 300;
+  }
+}
+
 .footer{
   width: 100%;
   padding: 3rem 1rem;
