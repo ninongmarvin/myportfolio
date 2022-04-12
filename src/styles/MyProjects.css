@@ -1,3 +1,19 @@
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+  body .project-contents img{
+    width: 100%;
+    height: 175px;
+    cursor: pointer;
+    border: 1px solid;
+  }
+
+  body .project-cards h3{
+    color: #99ffff;
+    font-size: .70rem;
+    font-weight: 400;
+    letter-spacing: 1.50px;
+  }
+}
+
 .project-cards{
   box-shadow: 0 8px 8px 0 #262626;
   border-bottom-left-radius: 15px;
