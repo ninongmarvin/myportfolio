@@ -9,6 +9,11 @@ import clients from './assets/clients.png';
 import login from './assets/login.png';
 import mainmenu from './assets/mainmenu.png';
 import posts from './assets/posts.png';
+import alonsoThumb from './assets/alonso-thumb.jpg';
+import alonso1 from './assets/alonso-1.jpg';
+import alonso2 from './assets/alonso-2.jpg';
+import alonso3 from './assets/alonso-3.jpg';
+import alonso4 from './assets/alonso-4.jpg';
 
 function App() {
   const projects = [
@@ -22,6 +27,17 @@ function App() {
       "sampleImage4": posts,
       "websiteLink": "l",
       "githubLink": "https://github.com/ninongmarvin/vetclinic",
+    },
+    {
+      "image": alonsoThumb,
+      "title": "Alonso's Catering Services",
+      "description": "Alonso's Catering Services Website is a website I made using only HTML5, CSS, and ReactJS. I made this website to further train myself in using ReactJS.",
+      "sampleImage1": alonso1,
+      "sampleImage2": alonso2,
+      "sampleImage3": alonso3,
+      "sampleImage4": alonso4,
+      "websiteLink": "https://ninongmarvin.github.io/alonsocateringservices",
+      "githubLink": "https://github.com/ninongmarvin/alonsocateringservices",
     },
   ];
 
