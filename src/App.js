@@ -14,12 +14,16 @@ import alonso1 from './assets/alonso-1.jpg';
 import alonso2 from './assets/alonso-2.jpg';
 import alonso3 from './assets/alonso-3.jpg';
 import alonso4 from './assets/alonso-4.jpg';
+import alonsoLaravel1 from './assets/alonso(laravel).jpg';
+import alonsoLaravel2 from './assets/alonso(laravel)2.jpg';
+import alonsoLaravel3 from './assets/alonso(laravel)3.jpg';
+import alonsoLaravel4 from './assets/alonso(laravel)4.jpg';
 
 function App() {
   const projects = [
     {
       "image": vetservice,
-      "title": "Veterinary Service",
+      "title": "Veterinary Service(Not Deployed)",
       "description": "This is a website I made for Heaven's Grace Veterinary Clinic. This website allows the Veterinarians of the Clinic to record transactions of their walk-in clients. Be it Boarding, Checkup, Deworming, Grooming, or Vaccination. Furthermore, this system creates an account for any client that is registered in the system, allowing them to access the system's social page where they can see posts and announcements of the Clinic. For this website, I used PHP(Laravel) for Back-end. MySql for Database. Tailwind CSS library for design and a little bit of Javascript.",
       "sampleImage1": login,
       "sampleImage2": mainmenu,
@@ -30,7 +34,7 @@ function App() {
     },
     {
       "image": alonsoThumb,
-      "title": "Alonso's Catering Services",
+      "title": "Alonso's Catering Services(ReactJS)(Deployed)",
       "description": "Alonso's Catering Services Website is a website I made using only HTML5, CSS, and ReactJS. I made this website to further train myself in using ReactJS.",
       "sampleImage1": alonso1,
       "sampleImage2": alonso2,
@@ -38,6 +42,17 @@ function App() {
       "sampleImage4": alonso4,
       "websiteLink": "https://ninongmarvin.github.io/alonsocateringservices",
       "githubLink": "https://github.com/ninongmarvin/alonsocateringservices",
+    },
+    {
+      "image": alonsoThumb,
+      "title": "Alonso's Catering Services(Laravel)(Not Deployed)",
+      "description": "This is a version of Alonso Catering Services that I made using Laravel this time. It has Back-end functionalities and I used MYSQL for its database",
+      "sampleImage1": alonsoLaravel1,
+      "sampleImage2": alonsoLaravel2,
+      "sampleImage3": alonsoLaravel3,
+      "sampleImage4": alonsoLaravel4,
+      "websiteLink": "",
+      "githubLink": "https://github.com/ninongmarvin/alonsocateringservices-laravel-",
     },
   ];
 
