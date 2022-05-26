@@ -35,7 +35,7 @@ const MyProjects = ({project}) => {
 
     <div className="project-cards" id={description ? "project-clicked" : "not-clicked"}>
       <div className="project-contents">
-        <img src={project.image} alt={project.title} id={description ? "clicked-image" : "not-clicked-image"} onClick={showDesc} />
+        <img src={project.image} alt={project.title} id={window.innerWidth <= 900 ? "test" : description ? "clicked-image" : "not-clicked-image"} onClick={showDesc} />
         <div className="website-title">
           <h3>{project.title}</h3>
           <div className="links">

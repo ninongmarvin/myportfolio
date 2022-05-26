@@ -116,6 +116,10 @@
   transition: 0.4s;
 }
 
+#test{
+  transition: 0.4s;
+}
+
 #not-clicked-image{
   grid-column: span 1 / span 1;
   transition: 0.4s;
